@@ -20,7 +20,10 @@
     "lib": ["dom", "esnext"],
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "types": ["vite/client"],
+    "types": [
+      "vite/client",
+      "jest"
+    ],
     "removeComments": true,
     "paths": {
       "/@/*": ["src/*"],
